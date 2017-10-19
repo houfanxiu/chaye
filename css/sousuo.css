@@ -1,0 +1,89 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-12 16:58:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-13 08:40:42
+*/
+@import url('base.css');
+body{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.sousuo{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	overflow: hidden;
+	/* margin-bottom: 0.1rem; */
+	line-height: 0.8rem;
+	border-bottom: 0.15rem solid #f3f4f6;
+}
+.sou{
+	width: 4rem;
+	height: 0.5rem;
+	margin: 0.15rem auto;
+	margin-left: 1.3rem;
+	background: #f3f4f6;
+	line-height: 0.5rem;
+	/* border-bottom: 0.02rem solid #666; */
+	border-radius: 0.5rem;
+	float: left;
+
+}
+.sou input{
+	display: block;
+	width: 3.3rem;
+	height: 100%;
+	color: #666;
+	outline: none;
+	background: #f3f4f6;
+	float: left;
+}
+.sou i{
+	display: block;
+	font-size: 0.3rem;
+	color: #666;
+	margin-right: 0.05rem;
+	margin-left: 0.05rem;
+	float: left;
+}
+.quxiao{
+	display: block;
+	font-size: 0.28rem;
+	float: right;
+	color: #000;
+	margin-right: 0.3rem;
+}
+
+
+
+
+.cai{
+	width: 100%;
+	height: 1.72rem;
+	background: #fff;
+	box-sizing: border-box;
+	margin: 0.1rem auto;
+
+}
+
+.cai ul{
+	width: 5.82rem;
+	height: auto;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.cai ul li{
+	width:1.8rem;
+	height: 0.7rem;
+	background: #f1f1f1;
+	line-height: 0.7rem;
+	text-align: center;
+	color: #666;
+	font-size: 0.25rem;
+	margin-bottom: 0.2rem;
+}

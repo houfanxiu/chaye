@@ -1,0 +1,208 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 18:46:18
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-16 09:35:22
+*/
+@import url('base.css');
+body{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding-top: 0.88rem;
+}
+.sousuo{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	overflow: hidden;
+	line-height: 0.8rem;
+	border-bottom: 0.08rem solid #f3f4f6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+}
+.sousuo a{
+	display: block;
+	width: 1.5rem;
+	height: 0.5rem;
+	/* background: yellow; */
+	font-size: 0.5rem;
+	float: left;
+	color: #000;
+	font-size: 0.2rem;
+	text-align: center;
+}
+.sousuo p{
+	font-size: 0.4rem;
+	line-height: 0.8rem;
+	float: left;
+	margin-left: 1.3rem;
+}
+.tou{
+	width: 100%;
+	height: 1.8rem;
+	background: red;
+}
+.tou img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+.fenlei{
+	width: 100%;
+	height: 0.88rem;
+	/* background: red; */
+	display: flex;
+	border-bottom: 0.01rem solid #ccc;
+}
+.fenlei li{
+	width: 33.333%;
+	height: 100%;
+}
+.fenlei li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.23rem;
+	text-align: center;
+	line-height: 0.88rem;
+	color: #a1a1a1;
+	box-sizing: border-box;
+}
+.fenlei li:nth-child(1) a{
+	color: #363636;
+	border-bottom: 0.04rem solid #363636;
+}
+
+
+
+.cg{
+	display: block;
+	width: 100%;	
+	height: 4.4rem;
+	/* background: red; */
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+	padding-left: 0.3rem;
+	position: relative;
+	border-bottom: 0.02rem solid #e5e5e5;
+}
+.cg img{
+	display: block;
+	width: 5.8rem;
+	height: 2.9rem;
+}
+.cg span{
+	font-size: 0.3rem;
+	display: block;
+	margin-top: 0.2rem;
+}
+.cg p{
+	font-size: 0.23rem;
+	color: #a7a7a7;
+	margin-top: 0.15rem;
+}
+.jl{
+	position: absolute;
+	top: 3.3rem;
+	right: 0.4rem;
+}
+.cg1{
+	display: block;
+	width: 100%;	
+	height: 4.4rem;
+	/* background: red; */
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+	padding-left: 0.3rem;
+	position: relative;
+	border-bottom: 0.02rem solid #e5e5e5;
+	margin-bottom: 0.95rem;
+}
+.cg1 img{
+	display: block;
+	width: 5.8rem;
+	height: 2.9rem;
+}
+.cg1 span{
+	font-size: 0.3rem;
+	display: block;
+	margin-top: 0.2rem;
+}
+.cg1 p{
+	font-size: 0.23rem;
+	color: #a7a7a7;
+	margin-top: 0.15rem;
+}
+.jl{
+	position: absolute;
+	top: 3.3rem;
+	right: 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+.daohang{
+	width: 100%;
+	height: 0.95rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.daohang ul{
+	width: 100%;
+	height: 0.7rem;
+	/* background: red; */
+	margin-top: 0.1rem;
+	display: flex;
+	/* justify-content: space-between; */
+	justify-content: space-around;
+}
+.daohang ul li,.daohang ul li a{
+	width: 0.6rem;
+	height: 0.7rem;
+	/* background: yellow; */
+}
+.daohang ul li a{
+	display: block;
+}
+.daohang ul li a div{
+	width: 0.35rem;
+	height: 0.35rem;
+	background: #aa968d;
+	margin: 0 auto;
+	border-radius: 0.1rem 0 0.1rem;
+	text-align: center;
+	line-height: 0.35rem;
+}
+.daohang ul li:nth-child(3) a div{
+	background: greenyellow;
+}
+.daohang ul li a div i{
+	display: block;
+	font-size: 0.2rem;
+	color: #fff;
+}
+.daohang ul li a p{
+	font-size: 0.2rem;
+	margin-top: 0.08rem;
+	color: #a1a1a1;
+	margin-left: 0.05rem;
+}

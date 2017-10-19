@@ -1,0 +1,232 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 22:07:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-16 09:37:01
+*/
+@import url('base.css');
+body{
+	width: 100%;
+	height: auto;
+	background: #f3f4f6;
+}
+.banner{
+	width: 100%;
+	height: 4rem;
+	position: relative;
+}
+.banner img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tx{
+	width: 1rem;
+	height: 1.5rem;
+	/* background: red; */
+	position: absolute;
+	top: 0.6rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.tou{
+	width: 1rem;
+	height: 1rem;
+	background: yellow;
+	margin-top: 0.1rem;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+}
+.tou img{
+	display: block;
+	width: 100%;	
+	height: 100%;
+
+}
+.tx p{
+	font-size: 0.3rem;
+	color: #fff;
+	font-weight: 600;
+}
+.bianji{
+	width: 1.5rem;
+	height: 0.5rem;
+	background: #fff;
+	border-radius: 0.5rem 0 0 0.5rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 0;
+	font-size: 0.23rem;
+	color: #666;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.banner .s1{
+	font-size: 0.4rem;
+	color: #fff;
+	position: absolute;
+	top: 0.3rem;
+	right: 1rem;
+}
+.banner .s2{
+	font-size: 0.4rem;
+	color: #fff;
+	position: absolute;
+	top: 0.3rem;
+	right: 0.3rem;
+}
+
+
+
+
+.dai{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+	display: flex;
+}
+.dai li{
+	width: 25%;
+	height: 100%;
+	/* background: yellow; */
+	text-align: center;
+	border-bottom: 0.01rem solid #ccc;
+}
+.dai li i{
+	display: block;
+	font-size: 0.5rem;
+	margin-top: 0.2rem;
+	color: #000;
+	box-sizing: border-box;
+	
+
+}
+.dai li p{
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+	color: #000;
+}
+
+
+
+
+
+
+.dai1{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.dai1 li{
+	width: 25%;
+	height: 100%;
+	/* background: yellow; */
+	text-align: center;
+	/* border-bottom: 0.01rem solid #ccc; */
+}
+.dai1 li div{
+	width: 0.8rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	margin: 0 auto;
+}
+.dai1 li div i{
+	display: block;
+	font-size: 0.5rem;
+	margin-top: 0.2rem;
+	color: #fff;
+	box-sizing: border-box;
+}
+.dai1 li p{
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+	color: #000;
+}
+.dai1 li:nth-child(1) div{
+	background: #F9BE00;
+}
+.dai1 li:nth-child(2) div{
+	background: #66DCAA;
+}
+.dai1 li:nth-child(3) div{
+	background: #7DCDF3;
+}
+.dai1 li:nth-child(4) div{
+	background: #FEA1C9;
+}
+.dai1 li:nth-child(5) div{
+	background: #FEA290;
+}
+.dai1 li:nth-child(6) div{
+	background: #FEA1C9;
+}
+
+
+
+
+
+
+
+
+
+
+
+.daohang{
+	width: 100%;
+	height: 0.95rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.daohang ul{
+	width: 100%;
+	height: 0.7rem;
+	/* background: red; */
+	margin-top: 0.1rem;
+	display: flex;
+	/* justify-content: space-between; */
+	justify-content: space-around;
+}
+.daohang ul li,.daohang ul li a{
+	width: 0.6rem;
+	height: 0.7rem;
+	/* background: yellow; */
+}
+.daohang ul li a{
+	display: block;
+}
+.daohang ul li a div{
+	width: 0.35rem;
+	height: 0.35rem;
+	background: #aa968d;
+	margin: 0 auto;
+	border-radius: 0.1rem 0 0.1rem 0;
+	text-align: center;
+	line-height: 0.35rem;
+}
+.daohang ul li:nth-child(4) a div{
+	background: greenyellow;
+}
+.daohang ul li a div i{
+	display: block;
+	font-size: 0.2rem;
+	color: #fff;
+}
+.daohang ul li a p{
+	font-size: 0.2rem;
+	margin-top: 0.08rem;
+	color: #a1a1a1;
+	margin-left: 0.05rem;
+}
+
+
+
+

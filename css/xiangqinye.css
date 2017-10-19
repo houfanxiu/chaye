@@ -1,0 +1,268 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 14:09:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 14:50:53
+*/
+@import url('base.css');
+body{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding-top: 0.88rem;
+
+}
+
+.sousuo{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	overflow: hidden;
+	line-height: 0.8rem;
+	border-bottom: 0.08rem solid #f3f4f6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+		text-align: center;
+}
+.sousuo a{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	/* background: yellow; */
+	font-size: 0.3rem;
+	float: left;
+	color: #000;
+}
+.sousuo p{
+	font-size: 0.3rem;
+	line-height: 0.8rem;
+
+}
+
+
+
+
+
+
+.binner{
+	width: 90%;
+	height: 6rem;
+	/* margin-top: 0.8rem; */
+	background: red;
+	margin: 0 auto;
+}
+.binner img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.ming{
+	width: 100%;
+	height: 2rem;
+	/* background: red; */
+	overflow: hidden;
+}
+.pm{
+	width: 90%;
+	margin: 0.2rem auto;
+	font-size: 0.35rem;
+	font-weight: 500;
+}
+.guige{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 0.1rem;
+	color: #666;
+}
+.jia{
+	width: 100%;
+	/* margin: 0 auto; */
+	font-size: 0.4rem;
+	margin-top: 0.15rem;
+	color: red;
+	border-bottom: 0.05rem solid #f3f4f6;
+	padding-bottom: 0.15rem;
+}
+.yunfei{
+	width: 100%;
+	font-size: 0.1rem;
+	color: #666;
+	padding: 0.1rem 0;
+}
+.shu{
+	width: 100%;
+	height: 0.5rem;
+	font-size: 0.1rem;
+	color: #666;
+	padding: 0.1rem 0;
+	line-height: 0.5rem;
+	border-bottom: 0.05rem solid #f3f4f6;
+}
+.x{
+	width: 1.8rem;
+	height: 0.5rem;
+	/* background: green; */
+	float: right;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.y1{
+	width: 0.4rem;
+	height: 0.4rem;
+	border: 0.02rem solid green;
+	border-radius: 50%;
+	float: left;
+	line-height: 0.4rem;
+	text-align: center;
+	color: green;
+	font-size: 0.4rem;
+}
+.y2{
+	width: 0.4rem;
+	height: 0.4rem;
+	border: 0.02rem solid green;
+	border-radius: 50%;
+	float: right;
+	line-height: 0.4rem;
+	text-align: center;
+	color: green;
+	font-size: 0.4rem;
+	margin-right: 0.5rem;
+}
+.xiang{
+	width: 100%;
+	font-size: 0.3rem;
+	color: #666;
+	padding: 0.1rem 0;
+	text-align: center;
+	font-weight: 600;
+}
+.qing{
+	width: 100%;
+	height: auto;
+	background: red;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+}
+.qing img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.pingjia{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #666;
+	padding: 0.1rem 0;
+	border-bottom: 0.02rem solid #f3f4f6;
+}
+.pingjia div{
+	float: left;
+}
+.pingjia div:nth-child(2){
+	margin-left: 3rem;
+}
+.pingjia div:nth-child(3){
+	color: red;
+}
+.yonghu1{
+	width: 100%;
+	height: auto;
+	padding-top: 0.2rem;
+	/* background: red; */
+	padding-bottom: 0.38rem;
+	border-bottom: 0.01rem solid #f3f4f6;
+}
+.xing{
+	width: 40%;
+	font-size: 0.1rem;
+	color: yellow;
+	margin-left: 0.1rem;
+	margin-bottom: 0.2rem;
+}
+.pj{
+	font-size: 0.16rem;
+}
+.yh{
+	font-size: 0.2rem;
+	float: right;
+	margin-right: 0.2rem
+}
+.pinglun{
+	margin-bottom: 0.98rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daohang{
+	width: 100%;
+	height: 0.95rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.daohang ul{
+	width: 100%;
+	height: 100%;
+	/* background: red; */
+}
+.daohang ul li{
+	width: 1rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	text-align: center;
+}
+
+.daohang ul li i{
+	display: block;
+	width: 1rem;
+	height: 0.5rem;
+	font-size: 0.4rem;
+	margin: 0.04rem auto;
+	color: #7dc950;
+}
+.daohang ul li p{
+	font-size: 0.2rem;
+}
+.daohang ul div{
+	width: 1.7rem;
+	height: 100%;
+	background: green;
+	float: left;
+	text-align: center;
+	line-height: 0.95rem;
+	font-size: 0.3rem;
+	color: #fff;
+}
+#li{
+	background: #7dc950;
+}
